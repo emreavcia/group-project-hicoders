@@ -1,5 +1,5 @@
 const mainData = [
-    {
+    classA = {
         marco: {
             matematik: 80,
             fizik: 90,
@@ -46,7 +46,8 @@ const mainData = [
             geometri: 80
         }
     },
-    {
+
+    classB = {
         marco: {
             matematik: 80,
             fizik: 90,
@@ -64,7 +65,7 @@ const mainData = [
             geometri: 80
         },
     },
-    {
+    classC = {
         marco: {
             matematik: 80,
             fizik: 80,
@@ -135,4 +136,6 @@ const mainData = [
         }
     }
 ]
+
+
 

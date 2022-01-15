@@ -17,6 +17,14 @@ const home = (pArray) => {
 
 rootDiv.innerHTML = home(mainData)
 
+const homeLink = document.getElementById("home")
+homeLink.addEventListener("click", (e) => {
+  e.preventDefault()
+  rootDiv.innerHTML = home(mainData)
+})
+
+
+
 const Aclass = document.getElementById("classA")
 
 Aclass.addEventListener("click", (e) => {

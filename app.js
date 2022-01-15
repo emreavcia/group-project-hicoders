@@ -1,7 +1,7 @@
-// HOME PAGE
-
+//Variable to get div with root id
 const rootDiv = document.getElementById("root")
 
+//Function to render home page 
 const home = (pArray) => {
 
   let innerHtml = pArray.map(array => {
@@ -17,6 +17,8 @@ const home = (pArray) => {
 
 rootDiv.innerHTML = home(mainData)
 
+
+//Event listener for home link
 const homeLink = document.getElementById("home")
 homeLink.addEventListener("click", (e) => {
   e.preventDefault()
@@ -24,26 +26,31 @@ homeLink.addEventListener("click", (e) => {
 })
 
 
-
+//Variables to get nav links for A, B, C classes 
 const Aclass = document.getElementById("classA")
 const Bclass = document.getElementById("classB")
 const Cclass = document.getElementById("classC")
 
+
+//Event listener for nav link A
 Aclass.addEventListener("click", (e) => {
   e.preventDefault()
   rootDiv.innerHTML = linkFunction(mainData)
 })
-
+//Event listener for nav link B
 Bclass.addEventListener("click", (e) => {
   e.preventDefault()
   rootDiv.innerHTML = linkFunction(mainData)
 })
-
+//Event listener for nav link C
 Cclass.addEventListener("click", (e) => {
   e.preventDefault()
   rootDiv.innerHTML = linkFunction(mainData)
 })
 
+
+
+//Function to render Classes 
 const linkFunction = (pArray) => {
   let innerHtml2 = `
     <h2 class="mt-5">Class Avarages</h2>

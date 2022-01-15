@@ -26,13 +26,25 @@ homeLink.addEventListener("click", (e) => {
 
 
 const Aclass = document.getElementById("classA")
+const Bclass = document.getElementById("classB")
+const Cclass = document.getElementById("classC")
 
 Aclass.addEventListener("click", (e) => {
   e.preventDefault()
-  rootDiv.innerHTML = classA(mainData)
+  rootDiv.innerHTML = linkFunction(mainData)
 })
 
-const classA = (pArray) => {
+Bclass.addEventListener("click", (e) => {
+  e.preventDefault()
+  rootDiv.innerHTML = linkFunction(mainData)
+})
+
+Cclass.addEventListener("click", (e) => {
+  e.preventDefault()
+  rootDiv.innerHTML = linkFunction(mainData)
+})
+
+const linkFunction = (pArray) => {
   let innerHtml2 = `
     <h2 class="mt-5">Class Avarages</h2>
     <hr />

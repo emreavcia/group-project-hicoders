@@ -9,14 +9,6 @@ const mainData = [
                         subjectName: "Matematik",
                         grade: 80
                     },
-                    {
-                        subjectName: "Fizik",
-                        grade: 70
-                    },
-                    {
-                        subjectName: "Kimya",
-                        grade: 80
-                    },
 
                 ]
             },

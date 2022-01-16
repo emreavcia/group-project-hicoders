@@ -76,7 +76,7 @@ const linkFunction = (pArray) => {
           <div class="card me-2 w-25" style="width: 18rem">
             <div class="card-body p-0">
               <div class="p-1 pt-2 bg-primary">
-                <p class="card-title ms-4 text-white">${student.studentName}</p>
+                <p class="card-title ms-4 text-white">${student.studentName} (${student.subject.length !== 1 ? (student.subject.length + " Lessons") : (student.subject.length + " Lesson")})</p>
               </div>
               <ul class="list-group list-group-flush">
               ${student.subject.map(subject => {
@@ -100,28 +100,28 @@ const linkFunction = (pArray) => {
             <h2 class="mt-5">Class Avarages</h2>
             <hr />
             <div class="d-flex justify-content-between w-75">
-              <p>Matematik<span class="badge bg-secondary"></span></p>
-              <p>Fizik<span class="badge bg-secondary">80</span></p>
-              <p>Kimya<span class="badge bg-secondary">80</span></p>
-              <p>Geometri<span class="badge bg-secondary">80</span></p>
+              <p>Matematik<span class="badge bg-secondary">${avarageGrade("Matematik", pArray[0])}</span></p>
+              <p>Fizik<span class="badge bg-secondary">${avarageGrade("Fizik", pArray[0])}</span></p>
+              <p>Kimya<span class="badge bg-secondary">${avarageGrade("Kimya", pArray[0])}</span></p>
+              <p>Geometri<span class="badge bg-secondary">${avarageGrade("Geometri", pArray[0])}</span></p>
             </div>`
-
-
-
 
   return `<div class="d-flex"> ${innerHtml} </div> ${innerHtml2} `
 }
 
+//function to find avarage of a certain subject in a class 
+const avarageGrade = (pram, array) => {
+  let avarage = (array.students.map((student) => {
+    return student.subject
+      .filter(subject => {
+        return subject.subjectName === pram
+      }).reduce((acc, subject, index, array) => {
+        return acc += subject.grade
+      }, 0)
+  })).reduce((acc, grade, index, array) => {
+    array = array.filter(element => element !== 0)
+    return acc += (grade / array.length)
+  }, 0)
+  return Math.round(avarage)
 
-const avarageGrade = () => {
-  pArray[0].students.map((student) => {
-    return student.subject.filter(subject => {
-      subject.subjectName === "Matematik"
-      return (subject.grade.reduce((acc, subject, array) => {
-        acc += subject.grade
-        return (acc / array.length)
-      }, 0))
-    })
-
-  })
 }

@@ -3,7 +3,7 @@ const mainData = [
         className: "Class A",
         students: [
             {
-                studentName: "AMarko",
+                studentName: "Marko",
                 subject: [
                     {
                         subjectName: "Matematik",
@@ -13,7 +13,7 @@ const mainData = [
                 ]
             },
             {
-                studentName: "AEmre",
+                studentName: "Emre",
                 subject: [
                     {
                         subjectName: "Matematik",
@@ -30,7 +30,7 @@ const mainData = [
                 ]
             },
             {
-                studentName: "AMemre",
+                studentName: "Emre",
                 subject: [
                     {
                         subjectName: "Matematik",

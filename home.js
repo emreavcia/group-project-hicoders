@@ -5,7 +5,7 @@ const home = (pArray) => {
 
         return `
           <div id="${classes.id}-chart ">
-              <canvas id="${classes.id}-canvas" width="400" height="400"></canvas>
+              <canvas "handleCanvas(${classes.id}-canvas)" id="${classes.id}-canvas" width="400" height="400"></canvas>
           </div>
           `
     }).join("")

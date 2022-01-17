@@ -3,17 +3,7 @@ const mainData = [
         className: "Class A",
         students: [
             {
-                studentName: "AMarko",
-                subject: [
-                    {
-                        subjectName: "Matematik",
-                        grade: 80
-                    },
-
-                ]
-            },
-            {
-                studentName: "AEmre",
+                studentName: "Marko",
                 subject: [
                     {
                         subjectName: "Matematik",
@@ -30,23 +20,40 @@ const mainData = [
                 ]
             },
             {
-                studentName: "AMemre",
+                studentName: "Recep",
                 subject: [
                     {
                         subjectName: "Matematik",
-                        grade: 80
+                        grade: 0
                     },
                     {
                         subjectName: "Fizik",
-                        grade: 70
-                    },
-                    {
-                        subjectName: "Kimya",
-                        grade: 80
+                        grade: 50
                     },
                     {
                         subjectName: "Geometri",
-                        grade: 80
+                        grade: 100
+                    }
+                ]
+            },
+            {
+                studentName: "Emre",
+                subject: [
+                    {
+                        subjectName: "Matematik",
+                        grade: 65
+                    },
+                    {
+                        subjectName: "Fizik",
+                        grade: 72
+                    },
+                    {
+                        subjectName: "Kimya",
+                        grade: 41
+                    },
+                    {
+                        subjectName: "Geometri",
+                        grade: 90
                     }
                 ]
             },
@@ -56,7 +63,7 @@ const mainData = [
         className: "Class B",
         students: [
             {
-                studentName: "BMarko",
+                studentName: "Rafaelle",
                 subject: [
                     {
                         subjectName: "Matematik",
@@ -73,7 +80,7 @@ const mainData = [
                 ]
             },
             {
-                studentName: "BTarko",
+                studentName: "Tom",
                 subject: [
                     {
                         subjectName: "Matematik",
@@ -99,7 +106,7 @@ const mainData = [
         className: "Class C",
         students: [
             {
-                studentName: "CTarko",
+                studentName: "Mario",
                 subject: [
                     {
                         subjectName: "Fizik",
@@ -116,7 +123,7 @@ const mainData = [
                 ]
             },
             {
-                studentName: "CSlaas ",
+                studentName: "Silvia ",
                 subject: [
                     {
                         subjectName: "Matematik",
@@ -133,7 +140,7 @@ const mainData = [
                 ]
             },
             {
-                studentName: "CTarko",
+                studentName: "Daria",
                 subject: [
                     {
                         subjectName: "Matematik",
@@ -154,7 +161,7 @@ const mainData = [
                 ]
             },
             {
-                studentName: "CTarko",
+                studentName: "Mateo",
                 subject: [
                     {
                         subjectName: "Matematik",
@@ -175,7 +182,7 @@ const mainData = [
                 ]
             },
             {
-                studentName: "CTarko",
+                studentName: "Mehmet",
                 subject: [
                     {
                         subjectName: "Matematik",
@@ -198,152 +205,3 @@ const mainData = [
         ]
     }
 ]
-
-
-
-
-
-
-
-
-/*  marco: {
-     matematik: 80,
-     fizik: 90,
-     kimya: 80,
-     geometri: 80
- },
- alessandra: {
-     matematik: 80,
-     fizik: 80,
- },
- Isabella: {
-     matematik: 80,
-     fizik: 80,
-     kimya: 80,
-     geometri: 80
- },
- elisa: {
-     matematik: 80,
-     fizik: 80,
-     kimya: 80,
-     geometri: 80
- },
- rafale: {
-     matematik: 80,
-     fizik: 70,
-     kimya: 80,
- },
- hans: {
-     matematik: 80,
-     fizik: 80,
-     kimya: 80,
-     geometri: 80
- },
- jack: {
-     matematik: 80,
-     fizik: 80,
-     kimya: 80,
-     geometri: 80
- },
- vincent: {
-     matematik: 80,
-     fizik: 80,
-     kimya: 80,
-     geometri: 80
- }
-},
-
-
-{
- marco: {
-     matematik: 80,
-     fizik: 90,
-     kimya: 80,
-     geometri: 80
- },
- alessandra: {
-     matematik: 80,
-     fizik: 80,
- },
- Isabella: {
-     matematik: 80,
-     fizik: 80,
-     kimya: 80,
-     geometri: 80
- },
-},
-{
- marco: {
-     matematik: 80,
-     fizik: 80,
-     kimya: 80,
-     geometri: 80
- },
- alessandra: {
-     matematik: 80,
-     fizik: 80,
- },
- Isabella: {
-     matematik: 80,
-     fizik: 80,
-     kimya: 80,
-     geometri: 80
- },
- elisa: {
-     matematik: 80,
-     fizik: 80,
-     kimya: 80,
-     geometri: 80
- },
- rafale: {
-     matematik: 80,
-     fizik: 70,
-     kimya: 80,
- },
- hans: {
-     matematik: 80,
-     fizik: 80,
-     kimya: 80,
-     geometri: 80
- },
- jack: {
-     matematik: 80,
-     fizik: 80,
-     kimya: 80,
-     geometri: 80
- },
- vincent: {
-     matematik: 80,
-     fizik: 80,
-     kimya: 80,
-     geometri: 80
- },
- rafale: {
-     matematik: 80,
-     fizik: 70,
-     kimya: 80,
- },
- hans: {
-     matematik: 80,
-     fizik: 80,
-     kimya: 80,
-     geometri: 80
- },
- jack: {
-     matematik: 80,
-     fizik: 80,
-     kimya: 80,
-     geometri: 80
- },
- vincent: {
-     matematik: 80,
-     fizik: 80,
-     kimya: 80,
-     geometri: 80
- }
-}
-]
-
-
-
-*/

@@ -1,10 +1,10 @@
 //Function to render Classes 
 const linkFunction = (pArray) => {
   // header main
-  headerMain.innerHTML = `${pArray[0].className}-(${pArray[0].students.length === 1 ? pArray[0].students.length + "student" : pArray[0].students.length + " students"})`
+  headerMain.innerHTML = `${pArray[0].className}-(${pArray[0].students.length === 1 ? pArray[0].students.length + " student" : pArray[0].students.length + " students"})`
   let innerHtml = pArray[0].students.map(student => {
     return `
-          <div class="card me-2 w-25" style="width: 18rem">
+          <div class="card col-3  m-3" style="width: 18rem">
             <div class="card-body p-0">
               <div class="p-1 pt-2 bg-primary">
                 <p class="card-title ms-4 text-white">${student.studentName} (${student.subject.length !== 1 ? (student.subject.length + " Lessons") : (student.subject.length + " Lesson")})</p>
@@ -37,7 +37,7 @@ const linkFunction = (pArray) => {
               <p>Geometri<span class="badge bg-secondary">${avarageGrade("Geometri", pArray[0])}</span></p
             </div>`
 
-  return `<div class="d-flex"> ${innerHtml} </div> ${innerHtml2} `
+  return `<div class="d-flex m-auto flex-wrap"> ${innerHtml}</div> ${innerHtml2} `
 }
 
 //function to find avarage of a certain subject in a class 

@@ -55,3 +55,5 @@ const avarageGrade = (param, array) => {
       }, 0)
   return Math.round(avarage)
 }
+
+

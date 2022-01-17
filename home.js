@@ -1,9 +1,10 @@
 //Function to render home page 
 const home = (pArray) => {
 
-    let innerHtml = pArray.map(array => {
+    let innerHtml = pArray.map(classes => {
+
         return `
-          <div id="chart-container">
+          <div id="${classes.id}-chart ">
               <canvas id="class-a" width="400" height="400"></canvas>
           </div>
           `

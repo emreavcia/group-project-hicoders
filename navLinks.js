@@ -16,14 +16,13 @@ const navLinkCreate = (array) => {
           >
             `
     }
-    )}
+    ).join("")}
 `
     navItemContainer.innerHTML = NavContent
 
 }
 
 navLinkCreate(mainData)
-
 
 
 //Variable to get home link 

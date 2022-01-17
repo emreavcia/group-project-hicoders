@@ -1,6 +1,7 @@
 const mainData = [
     {
         className: "Class A",
+        id: "classA",
         students: [
             {
                 studentName: "Marko",
@@ -61,6 +62,7 @@ const mainData = [
     },
     {
         className: "Class B",
+        id: "classB",
         students: [
             {
                 studentName: "Rafaelle",
@@ -104,6 +106,7 @@ const mainData = [
     },
     {
         className: "Class C",
+        id: "classC",
         students: [
             {
                 studentName: "Mario",

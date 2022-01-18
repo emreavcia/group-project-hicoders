@@ -1,7 +1,14 @@
 //Function to render Classes 
 const linkFunction = (pArray) => {
   // header main
-  headerMain.innerHTML = `${pArray[0].className}-(${pArray[0].students.length === 1 ? pArray[0].students.length + " student" : pArray[0].students.length + " students"})`
+  headerMain.innerHTML = `
+
+  ${pArray[0].className}-(${pArray[0].students.length === 1 ? 
+                          pArray[0].students.length + " student" : 
+                          pArray[0].students.length + " students"})
+                         
+                          `
+
   let innerHtml = pArray[0].students.map(student => {
     return `
           <div class="card col-3  m-3" style="width: 18rem">

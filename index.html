@@ -16,37 +16,12 @@
     <title>Group Project</title>
   </head>
   <body>
-    <header>
-      <!--NAVBAR START ===-->
-      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-        <div class="container-fluid">
-          <a class="navbar-brand text-white ms-3" href="./index.html">GVS</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse me-5 flex-wrap"
-            id="navbarNavAltMarkup"
-          >
-            <div id="nav-items-container" class="navbar-nav ms-auto me-5">
-              <!--Code is delivered by navLink.js-->
-            </div>
-          </div>
-        </div>
-      </nav>
-      <!--===NAVBAR END-->
+    <header id="mainHeader">
+      <!--NAVBAR is inserted by JS-->
     </header>
     <main>
       <div class="container">
-        <h2 class="mt-5 text-primary" id="h2">All Reports</h2>
+        <h2 id="main-heading" class="mt-5 text-primary">All Reports</h2>
         <hr />
         <div id="root">
           <!--Code is injected by app.js-->
@@ -70,12 +45,7 @@
     ></script>
 
     <!--Custom JS-->
-    <script src="data.js"></script>
-    <script src="variable.js"></script>
-    <script src="./navLinks.js"></script>
-    <script src="./home.js"></script>
-    <script src="./canvasHandle.js"></script>
 
-    <script src="app.js"></script>
+    <script type="module" src="./js/app.js"></script>
   </body>
 </html>

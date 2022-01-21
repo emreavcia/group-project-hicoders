@@ -7,7 +7,7 @@ export const classCardSection = (pArray) => {
         return `
                     ${group.students.map(student => {
             return `
-                            <div class="card col-3  m-3" style="width: 18rem">
+                            <div class="card col-3 m-3" style="width: 18rem">
                                 <div class="card-body p-0">
                                     <div class="p-1 pt-2 bg-primary">
                                         <p class="card-title ms-4 text-white">
@@ -34,6 +34,7 @@ export const classCardSection = (pArray) => {
                                           </ul>
                                         </div>
                                       </div>
+                                     
                                     `
         }).join("")
             }

@@ -358,6 +358,149 @@ export const data = [
                     }
                 ]
             },
+            {
+                studentName: "Samir",
+                subject: [
+                    {
+                        subjectName: "Matematik",
+                        grade: 55
+                    },
+                    {
+                        subjectName: "Fizik",
+                        grade: 63
+                    },
+                    {
+                        subjectName: "Kimya",
+                        grade: 78
+                    },
+                    {
+                        subjectName: "Geometri",
+                        grade: 42.9
+                    }
+                ]
+            },
+            {
+                studentName: "Pamir",
+                subject: [
+                    {
+                        subjectName: "Matematik",
+                        grade: 41
+                    },
+                    {
+                        subjectName: "Kimya",
+                        grade: 82.5
+                    },
+                    {
+                        subjectName: "Geometri",
+                        grade: 69
+                    }
+                ]
+            },
+            {
+                studentName: "Hansel",
+                subject: [
+                    {
+                        subjectName: "Matematik",
+                        grade: 55
+                    },
+                    {
+                        subjectName: "Fizik",
+                        grade: 55
+                    },
+                    {
+                        subjectName: "Kimya",
+                        grade: 55
+                    },
+                    {
+                        subjectName: "Geometri",
+                        grade: 88
+                    }
+                ]
+            },
+            {
+                studentName: "Gratel",
+                subject: [
+                    {
+                        subjectName: "Matematik",
+                        grade: 60
+                    },
+                    {
+                        subjectName: "Fizik",
+                        grade: 42
+                    },
+                    {
+                        subjectName: "Kimya",
+                        grade: 59
+                    },
+                    {
+                        subjectName: "Geometri",
+                        grade: 3
+                    }
+                ]
+            },
+            {
+                studentName: "Daria",
+                subject: [
+                    {
+                        subjectName: "Matematik",
+                        grade: 100
+                    },
+                    {
+                        subjectName: "Fizik",
+                        grade: 100
+                    },
+                    {
+                        subjectName: "Kimya",
+                        grade: 100
+                    },
+                    {
+                        subjectName: "Geometri",
+                        grade: 100
+                    }
+                ]
+            },
+            {
+                studentName: "Teya",
+                subject: [
+                    {
+                        subjectName: "Matematik",
+                        grade: 71
+                    },
+                    {
+                        subjectName: "Fizik",
+                        grade: 84
+                    },
+                    {
+                        subjectName: "Kimya",
+                        grade: 66
+                    },
+                    {
+                        subjectName: "Geometri",
+                        grade: 89
+                    }
+                ]
+            },
+            {
+                studentName: "Massimo",
+                subject: [
+                    {
+                        subjectName: "Matematik",
+                        grade: 64
+                    },
+                    {
+                        subjectName: "Fizik",
+                        grade: 99
+                    },
+                    {
+                        subjectName: "Kimya",
+                        grade: 51
+                    },
+                    {
+                        subjectName: "Geometri",
+                        grade: 90
+                    }
+                ]
+            }
         ]
     },
     {

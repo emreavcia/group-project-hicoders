@@ -2,16 +2,16 @@ import { avarageGrade } from "./avarageGradeFunction.js"
 export const home = (pArray, root, SUBJECTS) => {
 
     root.innerHTML = `
-    <div class="row mb-5">
+    <div class="row ">
     ${pArray.map(classes => {
 
         return `
-            <div class="col-6 ">
+            <div class="col-6 mb-5 mt-3">
             <div class="m-auto w-50">
-            <p class="lh-1">Toplam ogrenci: ${classes.students.length}</p>
+            <p style="line-height: 30%">Toplam ogrenci: ${classes.students.length}</p>
             ${SUBJECTS.map(subject => {
             return `
-                        <p class="lh-1"> ${subject} ortalamasi: ${avarageGrade(subject, classes)} </p>
+                        <p style="line-height: 30%"> ${subject} ortalamasi: ${avarageGrade(subject, classes)} </p>
                     `
         }).join("")
             }            

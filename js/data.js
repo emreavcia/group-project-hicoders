@@ -366,6 +366,76 @@ export const data = [
         students: [
 
             {
+                studentName: "Alice",
+                subject: [
+                    {
+                        subjectName: "Matematik",
+                        grade: 85
+                    },
+                    {
+                        subjectName: "Fizik",
+                        grade: 100
+                    },
+                    {
+                        subjectName: "Kimya",
+                        grade: 73
+                    },
+                    {
+                        subjectName: "Geometri",
+                        grade: 67
+                    }
+                ]
+            },
+            {
+                studentName: "Kalimerhaba ",
+                subject: [
+                    {
+                        subjectName: "Matematik",
+                        grade: 97
+                    },
+                    {
+                        subjectName: "Fizik",
+                        grade: 89
+                    },
+                    {
+                        subjectName: "Kimya",
+                        grade: 65
+                    },
+                    {
+                        subjectName: "Geometri",
+                        grade: 89
+                    }
+                ]
+            },
+            {
+                studentName: "Ahmet ",
+                subject: [
+                    {
+                        subjectName: "Matematik",
+                        grade: 48
+                    },
+                    {
+                        subjectName: "Fizik",
+                        grade: 69
+                    },
+                    {
+                        subjectName: "Kimya",
+                        grade: 83
+                    },
+                    {
+                        subjectName: "Geometri",
+                        grade: 76
+                    }
+                ]
+            },
+        ]
+    },
+    {
+        id: crypto.randomUUID(),
+        className: "Class G",
+        students: [
+
+            {
                 studentName: "Silvia ",
                 subject: [
                     {

@@ -7,8 +7,8 @@ export const home = (pArray, root, SUBJECTS) => {
 
         return `
             <div class="col-sm-12 col-md-6 mb-5 mt-3">
-            <div class="m-auto w-50">
-            <p style="line-height: 30%">Toplam ogrenci sayisi: ${classes.students.length}</p>
+            <div class="col-12 col-md-6 m-lg-auto">
+            <p style="line-height: 30%">Toplam ogrenci sayisi: <span>${classes.students.length}</span> </p>
             ${SUBJECTS.map(subject => {
             return `
                         <p style="line-height: 30%"> ${subject} ortalamasi: ${avarageGrade(subject, classes)} </p>

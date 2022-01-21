@@ -1,7 +1,7 @@
-const mainData = [
+export const data = [
     {
+        id: crypto.randomUUID(),
         className: "Class A",
-        id: "classA",
         students: [
             {
                 studentName: "Marko",
@@ -61,8 +61,8 @@ const mainData = [
         ],
     },
     {
+        id: crypto.randomUUID(),
         className: "Class B",
-        id: "classB",
         students: [
             {
                 studentName: "Rafaelle",
@@ -105,8 +105,8 @@ const mainData = [
         ],
     },
     {
+        id: crypto.randomUUID(),
         className: "Class C",
-        id: "classC",
         students: [
             {
                 studentName: "Mario",
@@ -206,5 +206,184 @@ const mainData = [
                 ]
             },
         ]
+    },
+    {
+        id: crypto.randomUUID(),
+        className: "Class D",
+        students: [
+            {
+                studentName: "Mario",
+                subject: [
+                    {
+                        subjectName: "Matematik",
+                        grade: 58
+                    },
+                    {
+                        subjectName: "Fizik",
+                        grade: 58
+                    },
+                    {
+                        subjectName: "Kimya",
+                        grade: 25
+                    }
+                ]
+            },
+            {
+                studentName: "Silvia ",
+                subject: [
+                    {
+                        subjectName: "Matematik",
+                        grade: 15
+                    },
+                    {
+                        subjectName: "Fizik",
+                        grade: 87.5
+                    },
+                    {
+                        subjectName: "Geometri",
+                        grade: 80
+                    }
+                ]
+            },
+            {
+                studentName: "Mateo",
+                subject: [
+                    {
+                        subjectName: "Matematik",
+                        grade: 25
+                    },
+                    {
+                        subjectName: "Fizik",
+                        grade: 80
+                    },
+                    {
+                        subjectName: "Kimya",
+                        grade: 55
+                    },
+                    {
+                        subjectName: "Geometri",
+                        grade: 55.6
+                    }
+                ]
+            },
+            {
+                studentName: "Mehmet",
+                subject: [
+                    {
+                        subjectName: "Matematik",
+                        grade: 96.99
+                    },
+                    {
+                        subjectName: "Kimya",
+                        grade: 75
+                    },
+                    {
+                        subjectName: "Geometri",
+                        grade: 37.5
+                    }
+                ]
+            },
+        ]
+    },
+    {
+        id: crypto.randomUUID(),
+        className: "Class E",
+        students: [
+
+            {
+                studentName: "Silvia ",
+                subject: [
+                    {
+                        subjectName: "Matematik",
+                        grade: 45
+                    },
+                    {
+                        subjectName: "Fizik",
+                        grade: 87.5
+                    },
+                    {
+                        subjectName: "Geometri",
+                        grade: 73
+                    }
+                ]
+            },
+            {
+                studentName: "Daria",
+                subject: [
+                    {
+                        subjectName: "Matematik",
+                        grade: 25
+                    },
+                    {
+                        subjectName: "Fizik",
+                        grade: 55
+                    },
+                    {
+                        subjectName: "Kimya",
+                        grade: 40
+                    },
+                    {
+                        subjectName: "Geometri",
+                        grade: 25
+                    }
+                ]
+            },
+            {
+                studentName: "Mateo",
+                subject: [
+                    {
+                        subjectName: "Matematik",
+                        grade: 45
+                    },
+                    {
+                        subjectName: "Fizik",
+                        grade: 28
+                    },
+                    {
+                        subjectName: "Kimya",
+                        grade: 55
+                    },
+                    {
+                        subjectName: "Geometri",
+                        grade: 55.6
+                    }
+                ]
+            },
+            {
+                studentName: "Mehmet",
+                subject: [
+                    {
+                        subjectName: "Matematik",
+                        grade: 96.99
+                    }
+                ]
+            },
+        ]
+    },
+    {
+        id: crypto.randomUUID(),
+        className: "Class F",
+        students: [
+
+            {
+                studentName: "Silvia ",
+                subject: [
+                    {
+                        subjectName: "Matematik",
+                        grade: 45
+                    },
+                    {
+                        subjectName: "Fizik",
+                        grade: 87.5
+                    },
+                    {
+                        subjectName: "Geometri",
+                        grade: 73
+                    }
+                ]
+            },
+        ]
     }
 ]
+
+export const SUBJECTS = ["Matematik", "Fizik", "Kimya", "Geometri"]
